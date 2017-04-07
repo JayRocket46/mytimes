@@ -152,10 +152,29 @@ ul {
 .container {
     width: 315px;
     display: inline-flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
 }
 .fbi{
   min-width: 300px;
   padding: 17px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.news {
+  font-size: 16px;
+ font-weight: bold;
+ display:flex;
+ justify-content: center;
+}
+.bites li {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: solid black 1px;
+  display: flex;
+  flex-grow: 3;
+
 }
