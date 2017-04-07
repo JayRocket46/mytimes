@@ -7,9 +7,11 @@ body {
     font-size: 17px;
     color: black;
 }
+
 header {
-  border-bottom: solid black 1px;
+    border-bottom: solid black 1px;
 }
+
 .header {
     display: inline-flex;
     background-color: white;
@@ -19,7 +21,7 @@ header {
     z-index: 5;
     top: 0px;
     left: 0px;
-border-top: solid black 1px;
+    border-top: solid black 1px;
 }
 
 .logo {
@@ -39,7 +41,6 @@ border-top: solid black 1px;
     justify-content: flex-start;
 }
 
-
 a {
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
     font-size: 14px;
@@ -50,13 +51,15 @@ a {
 }
 
 nav {
-    display:inline-flex;
+    display: inline-flex;
     width: 300px;
     align-content: space-between;
     align-items: center;
 }
 
-ul {
+li {
+  display: inline-flex;
+  list-style: none;
 
 }
 
@@ -65,21 +68,18 @@ ul {
     margin-left: 78px;
     margin-right: 78px;
     display: flex;
-
-
 }
 
 .column.large {
     width: 630px;
     display: flex;
-      border: solid black 1px;
-
+    border: solid black 1px;
 }
 
 .column.medium {
     width: 300px;
     display: flex;
-      border: solid black 1px;
+    border: solid black 1px;
 }
 
 .column.small {
@@ -101,11 +101,16 @@ ul {
     align-items: center;
     text-align: center;
 }
-.mother-container {
-  min-width: 625px;
-  padding-right: 17px;
 
+.mother-container {
+    min-width: 625px;
+    padding-right: 17px;
 }
+
+#mother p {
+    padding-right: 20px;
+}
+
 .earth {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
     font-family: Georgia;
@@ -152,29 +157,38 @@ ul {
 .container {
     width: 315px;
     display: inline-flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
 }
-.fbi{
-  min-width: 300px;
-  padding: 17px;
-  display: flex;
-  flex-wrap: wrap;
+
+.fbi {
+    min-width: 300px;
+    display: flex;
+
 }
+
+#fbi h2, p {
+    padding-right: 140px;
+}
+
 .news {
-  font-size: 16px;
- font-weight: bold;
- display:flex;
- justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
+
 .bites li {
-  background-color: WhiteSmoke;
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+    border-bottom: solid black 1px;
+    display: flex;
+}
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
   font-family: Verdana;
   font-size: 12px;
-  color: DimGray;
-  border-bottom: solid black 1px;
-  display: flex;
-  flex-grow: 3;
-
 }
